@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Settings">
+
+        <TextView
+            style="@style/setting"
+            android:text="@string/settings"
+            android:textColor="#FFA500"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/setting"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <TextView
+            style="@style/setting"
+            android:text="@string/account"
+            android:textColor="#FFA500"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/setting"
+            android:text="@string/mail"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <TextView
+            style="@style/setting"
+            android:text="@string/playMusic"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <TextView
+            style="@style/setting"
+            android:text="@string/refresh"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"
+            android:paddingBottom="8dp"></View>
+
+        <TextView
+            style="@style/setting"
+            android:paddingBottom="8dp"
+            android:text="@string/downloading"
+            android:textColor="#FFA500"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/setting"
+            android:text="@string/downlaodQuality"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <TextView
+            style="@style/setting"
+            android:text="@string/clearCache"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <TextView
+            style="@style/setting"
+            android:text="@string/storage"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp">
+
+            <Button
+                android:id="@+id/main"
+                style="@style/button"
+                android:text="@string/main" />
+
+            <Button
+                android:id="@+id/playing"
+                style="@style/button"
+                android:text="@string/playin" />
+
+
+            <Button
+                android:id="@+id/playLists"
+                style="@style/button"
+                android:text="@string/playLists" />
+
+            <Button
+                android:id="@+id/player"
+                style="@style/button"
+                android:text="@string/player" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

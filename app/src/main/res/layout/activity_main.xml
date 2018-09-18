@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FBF8EF"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:text="@string/main"
+        android:textColor="#FFA500"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout style="@style/layout">
+
+            <ImageView
+                android:id="@+id/nowPlaying"
+                style="@style/app"
+                android:src="@drawable/play" />
+
+            <TextView
+                style="@style/theme"
+                android:text="@string/nowPlaying" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/layout">
+
+            <ImageView
+                android:id="@+id/playList"
+                style="@style/app"
+                android:src="@drawable/playlist" />
+
+            <TextView
+                style="@style/theme"
+                android:text="@string/playLists" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/layout">
+
+            <ImageView
+                android:id="@+id/music"
+                style="@style/app"
+                android:src="@drawable/music" />
+
+            <TextView
+                style="@style/theme"
+                android:text="@string/player" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/layout">
+
+            <ImageView
+                android:id="@+id/settings"
+                style="@style/app"
+                android:src="@drawable/setting" />
+
+            <TextView
+                style="@style/theme"
+                android:text="@string/settings" />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/layout">
+
+                <ImageView
+                    android:id="@+id/payment"
+                    style="@style/app"
+                    android:src="@drawable/payment" />
+
+                <TextView
+                    style="@style/theme"
+                    android:text="@string/payment" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

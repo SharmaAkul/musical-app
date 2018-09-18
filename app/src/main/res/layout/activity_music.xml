@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Music">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/songs"
+            android:textStyle="bold"
+            android:textColor="#FFA500"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="8dp"
+            android:text="@string/songDesc"
+            android:textSize="18sp" />
+
+        <LinearLayout style="@style/songLayout">
+
+            <TextView
+                style="@style/song"
+                android:text="@string/song1" />
+
+            <ImageView style="@style/logo" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <LinearLayout style="@style/songLayout">
+
+            <TextView
+                style="@style/song"
+                android:text="@string/song2" />
+
+            <ImageView style="@style/logo" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <LinearLayout style="@style/songLayout">
+
+            <TextView
+                style="@style/song"
+                android:text="@string/song3" />
+
+            <ImageView style="@style/logo" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <LinearLayout style="@style/songLayout">
+
+            <TextView
+                style="@style/song"
+                android:text="@string/song4" />
+
+            <ImageView style="@style/logo" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <LinearLayout style="@style/songLayout">
+
+            <TextView
+                style="@style/song"
+                android:text="@string/song5" />
+
+            <ImageView style="@style/logo" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <LinearLayout style="@style/songLayout">
+
+            <TextView
+                style="@style/song"
+                android:text="@string/song6" />
+
+            <ImageView style="@style/logo" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:minWidth="1dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp">
+
+            <Button
+                android:id="@+id/main"
+                style="@style/button"
+                android:text="@string/main" />
+
+            <Button
+                android:id="@+id/playing"
+                style="@style/button"
+                android:text="@string/playin" />
+
+            <Button
+                android:id="@+id/playLists"
+                style="@style/button"
+                android:text="@string/playLists" />
+
+            <Button
+                android:id="@+id/settings"
+                style="@style/button"
+                android:text="@string/settings" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

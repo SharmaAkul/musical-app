@@ -1,0 +1,48 @@
+<resources>
+    <!--- Main Activity -->
+    <string name="app_name">Music Player</string>
+    <string name="player">Songs</string>
+    <string name="playLists">Play List</string>
+    <string name="nowPlaying">Now Playing</string>
+    <string name="main">Home</string>
+    <string name="settings">Settings</string>
+    <string name="playin">Playing</string>
+    <string name="payment">Payment</string>
+    <!--- Now Playing Activity -->
+    <string name="playing">This activity tells us about the current song running on our app.
+            \nThis activity contains buttons for moving to next song or going back to previous song.
+            \nThese are some clickable images given above shows the Toast messages.</string>
+
+    <!--- Play List Activity -->
+    <string name="recentlyPlayed">Recently Played</string>
+    <string name="autoList">Auto List</string>
+    <string name="description">This activity contains the description of playlist and also shows the recently added music to the library.
+    \nUser can add Favourite songs into the playlist.</string>
+
+    <!--- Setting Activity -->
+    <string name="account">Account</string>
+    <string name="mail">abc@gmail.com</string>
+    <string name="playMusic">Google Play Music Free</string>
+    <string name="refresh">Refresh</string>
+    <string name="downloading">Downloading</string>
+    <string name="clearCache">Clear Cache</string>
+    <string name="downlaodQuality">Download Quality</string>
+    <string name="storage">Storage Location</string>
+    <string name="setting">This activity show us the setting about downloading and information of the user account.
+    \nUser can refresh the app ,can change the storage location etc.</string>
+
+    <!--- Music Activity -->
+    <string name="songs">Songs</string>
+    <string name="song1">01. Bullet</string>
+    <string name="song2">02. We Are</string>
+    <string name="song3">03. Young</string>
+    <string name="song4">04. circles</string>
+    <string name="song5">05. Heathens</string>
+    <string name="song6">06. You Owe Me</string>
+    <string name="songDesc">This activity contains the list  of songs that are currently present in the device.
+    \nMoreover if the user download the song it stores that song int its library.</string>
+
+    <!--- payment Activity -->
+    <string name="pay">This activity shows the payment procedure for the payment of this app.
+    \nTo continue enjoying the entertainment you  must proceed to the payment app.</string>
+</resources>
